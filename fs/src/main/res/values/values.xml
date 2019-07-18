@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AVLoadingIndicatorView"><attr name="indicator"><flag name="BallPulse" value="0"/><flag name="BallGridPulse" value="1"/><flag name="BallClipRotate" value="2"/><flag name="BallClipRotatePulse" value="3"/><flag name="SquareSpin" value="4"/><flag name="BallClipRotateMultiple" value="5"/><flag name="BallPulseRise" value="6"/><flag name="BallRotate" value="7"/><flag name="CubeTransition" value="8"/><flag name="BallZigZag" value="9"/><flag name="BallZigZagDeflect" value="10"/><flag name="BallTrianglePath" value="11"/><flag name="BallScale" value="12"/><flag name="LineScale" value="13"/><flag name="LineScaleParty" value="14"/><flag name="BallScaleMultiple" value="15"/><flag name="BallPulseSync" value="16"/><flag name="BallBeat" value="17"/><flag name="LineScalePulseOut" value="18"/><flag name="LineScalePulseOutRapid" value="19"/><flag name="BallScaleRipple" value="20"/><flag name="BallScaleRippleMultiple" value="21"/><flag name="BallSpinFadeLoader" value="22"/><flag name="LineSpinFadeLoader" value="23"/><flag name="TriangleSkewSpin" value="24"/><flag name="Pacman" value="25"/><flag name="BallGridBeat" value="26"/><flag name="SemiCircleSpin" value="27"/></attr><attr format="color" name="indicator_color"/></declare-styleable>
+    <declare-styleable name="MultiStateView"><attr format="reference" name="msv_loadingView"/><attr format="reference" name="msv_emptyView"/><attr format="reference" name="msv_errorView"/><attr format="enum" name="msv_viewState"><enum name="content" value="0"/><enum name="error" value="1"/><enum name="empty" value="2"/><enum name="loading" value="3"/></attr></declare-styleable>
+    <declare-styleable name="PullRefreshListView"><attr name="getMoreType"><enum name="auto" value="0"/><enum name="click" value="1"/></attr><attr format="boolean" name="addPullHeaderByUser"/></declare-styleable>
+    <declare-styleable name="RatingBar"><attr format="dimension" name="starImageSize"/><attr format="integer" name="starCount"/><attr format="reference" name="starEmpty"/><attr format="reference" name="starFill"/><attr format="boolean" name="clickable"/></declare-styleable>
+    <declare-styleable name="ToggleButton"><attr format="dimension" name="bdWidth"/><attr format="reference|color" name="offBorderColor"/><attr format="reference|color" name="offColor"/><attr format="reference|color" name="onColor"/><attr format="reference|color" name="spotColor"/><attr format="reference|boolean" name="animate"/></declare-styleable>
+    <dimen name="space_1">1.0dip</dimen>
+    <dimen name="space_10">10.0dip</dimen>
+    <dimen name="space_11">11.0dip</dimen>
+    <dimen name="space_12">12.0dip</dimen>
+    <dimen name="space_13">13.0dip</dimen>
+    <dimen name="space_14">14.0dip</dimen>
+    <dimen name="space_15">15.0dip</dimen>
+    <dimen name="space_16">16.0dip</dimen>
+    <dimen name="space_17">17.0dip</dimen>
+    <dimen name="space_18">18.0dip</dimen>
+    <dimen name="space_19">19.0dip</dimen>
+    <dimen name="space_2">2.0dip</dimen>
+    <dimen name="space_20">20.0dip</dimen>
+    <dimen name="space_21">21.0dip</dimen>
+    <dimen name="space_22">22.0dip</dimen>
+    <dimen name="space_23">23.0dip</dimen>
+    <dimen name="space_24">24.0dip</dimen>
+    <dimen name="space_25">25.0dip</dimen>
+    <dimen name="space_26">26.0dip</dimen>
+    <dimen name="space_27">27.0dip</dimen>
+    <dimen name="space_28">28.0dip</dimen>
+    <dimen name="space_29">29.0dip</dimen>
+    <dimen name="space_3">3.0dip</dimen>
+    <dimen name="space_30">30.0dip</dimen>
+    <dimen name="space_4">4.0dip</dimen>
+    <dimen name="space_45">45.0dip</dimen>
+    <dimen name="space_5">5.0dip</dimen>
+    <dimen name="space_55">55.0dip</dimen>
+    <dimen name="space_6">6.0dip</dimen>
+    <dimen name="space_7">7.0dip</dimen>
+    <dimen name="space_8">8.0dip</dimen>
+    <dimen name="space_9">9.0dip</dimen>
+    <dimen name="text_size_1">1.0dip</dimen>
+    <dimen name="text_size_10">10.0dip</dimen>
+    <dimen name="text_size_11">11.0dip</dimen>
+    <dimen name="text_size_12">12.0dip</dimen>
+    <dimen name="text_size_13">13.0dip</dimen>
+    <dimen name="text_size_14">14.0dip</dimen>
+    <dimen name="text_size_15">15.0dip</dimen>
+    <dimen name="text_size_16">16.0dip</dimen>
+    <dimen name="text_size_17">17.0dip</dimen>
+    <dimen name="text_size_18">18.0dip</dimen>
+    <dimen name="text_size_19">19.0dip</dimen>
+    <dimen name="text_size_2">2.0dip</dimen>
+    <dimen name="text_size_20">20.0dip</dimen>
+    <dimen name="text_size_21">21.0dip</dimen>
+    <dimen name="text_size_22">22.0dip</dimen>
+    <dimen name="text_size_23">23.0dip</dimen>
+    <dimen name="text_size_24">24.0dip</dimen>
+    <dimen name="text_size_25">25.0dip</dimen>
+    <dimen name="text_size_26">26.0dip</dimen>
+    <dimen name="text_size_27">27.0dip</dimen>
+    <dimen name="text_size_28">28.0dip</dimen>
+    <dimen name="text_size_29">29.0dip</dimen>
+    <dimen name="text_size_3">3.0dip</dimen>
+    <dimen name="text_size_30">30.0dip</dimen>
+    <dimen name="text_size_31">31.0dip</dimen>
+    <dimen name="text_size_32">32.0dip</dimen>
+    <dimen name="text_size_33">33.0dip</dimen>
+    <dimen name="text_size_34">34.0dip</dimen>
+    <dimen name="text_size_35">35.0dip</dimen>
+    <dimen name="text_size_36">36.0dip</dimen>
+    <dimen name="text_size_37">37.0dip</dimen>
+    <dimen name="text_size_38">38.0dip</dimen>
+    <dimen name="text_size_39">39.0dip</dimen>
+    <dimen name="text_size_4">4.0dip</dimen>
+    <dimen name="text_size_40">40.0dip</dimen>
+    <dimen name="text_size_5">5.0dip</dimen>
+    <dimen name="text_size_6">6.0dip</dimen>
+    <dimen name="text_size_7">7.0dip</dimen>
+    <dimen name="text_size_8">8.0dip</dimen>
+    <dimen name="text_size_9">9.0dip</dimen>
+</resources>
