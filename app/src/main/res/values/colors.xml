@@ -3,4 +3,16 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#fff</color>
+
+    <!--透明色-->
+    <color name="transparency">#0fff</color>
+    <!--toast-->
+    <color name="toast_bg_color">#e5273238</color>
+    <color name="toast_text_color">#a9c8d7</color>
+    <!--dialog-->
+    <color name="bg_dialog_trans_color">#33000000</color>
+    <color name="bg_commit_error_color">#263238</color>
+    <color name="match_team_stp_color">#a1bfce</color>
 </resources>

@@ -77,10 +77,11 @@ apply plugin: 'com.novoda.bintray-release' // publish tool
 // publish
 publish {
     userOrg = 'sar01'//step2 创建的organization名字
-    groupId = 'com.sar.fs'// group id, jcenter上的路径,即lib使用的时候的groupid（step 5中有说明）
+    groupId = 'com.sar'// group id, jcenter上的路径,即lib使用的时候的groupid（step 5中有说明）
     artifactId = 'fs'//step2 创建的项目名称
     publishVersion = '0.0.2'//发布版本号
     desc = 'base library'//描述，可选
     website = ''//网站，可选
 
+//            ./gradlew clean build bintrayUpload -PbintrayUser=sar -PbintrayKey=5d4fa833e50b8e82c752665911f04ae2b5213b66 -PdryRun=false
 }

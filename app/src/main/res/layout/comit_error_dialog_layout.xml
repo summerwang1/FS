@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/bg_dialog_trans_color"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/bg_commit_error_color"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/error_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textSize="@dimen/text_16"
+            android:textColor="@color/match_team_stp_color"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dialog_return"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16"
+            android:background="@drawable/bg_pay_error_btn"
+            />
+    </LinearLayout>
+
+</LinearLayout>
